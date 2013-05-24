@@ -1,3 +1,4 @@
+<?php
 OBJECTS
 Compliance inspections
  -- Determine compliance status(regulations,permit conditions,other requirements)
@@ -365,3 +366,4 @@ class recordKeeping extends RegulatoryRequirements{
 	}
 }
 
+?>
