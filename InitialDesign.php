@@ -364,6 +364,12 @@ class recordKeeping extends RegulatoryRequirements{
 		
 		
 	}
+	
+	protected function recordEvaluation($permitRequirements,$facilityData){
+		foreach($permitRequirements as $permitRequirement){
+			Analyser::verify($permitRequirement);
+		}
+	}
 }
 
 ?>
